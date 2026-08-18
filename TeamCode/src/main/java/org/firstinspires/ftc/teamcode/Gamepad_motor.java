@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
 @TeleOp(name = "Gamepad Drive", group = "TeleOp")
-public class GamepadPractice extends OpMode {
+public class Gamepad_motor extends OpMode {
 
     // Declare the 4 motors
     private DcMotor frontLeft = null;
