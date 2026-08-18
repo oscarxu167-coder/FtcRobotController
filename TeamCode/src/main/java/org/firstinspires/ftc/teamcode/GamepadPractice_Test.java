@@ -4,7 +4,7 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 @TeleOp
-public class Practice_Test extends OpMode {
+public class GamepadPractice_Test extends OpMode {
 
     RobotLocationPractice robotlocation = new RobotLocationPractice(0);
 
@@ -25,3 +25,5 @@ public class Practice_Test extends OpMode {
         telemetry.addData("Heading", robotlocation.getHeading());
     }
 }
+
+
