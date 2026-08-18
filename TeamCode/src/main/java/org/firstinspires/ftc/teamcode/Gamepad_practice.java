@@ -2,7 +2,7 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 
-public class practice extends OpMode {
+public class Gamepad_practice extends OpMode {
 
     boolean initDone;
     @Override
